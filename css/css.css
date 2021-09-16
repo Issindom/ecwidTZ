@@ -1,0 +1,36 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton';
+	color: 000;
+	font-size: 16px;
+}
+
+p{
+	color: Black;
+}
+
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	color: Black;
+}
+
+ul, li{
+	display: block;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background: url('../img/50.jpg') no-repeat center top / cover;
+}
+.meet{
+	color: white; /* цвет текста */
+  	text-decoration: none; /* убирать подчёркивание у ссылок */
+ 	user-select: none; /* убирать выделение текста */
+  	padding: .7em 41.5em; /* отступ от текста */
+}
